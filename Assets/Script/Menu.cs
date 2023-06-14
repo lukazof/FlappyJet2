@@ -25,6 +25,9 @@ public class Menu : MonoBehaviour
 
     public void QuitGame()
     {
+        PlayerPrefs.SetInt("Coins", Game.Instance.coins);
+        PlayerPrefs.SetInt("Highscore", Game.Instance.maxScore);
+
         Application.Quit();
     }
 

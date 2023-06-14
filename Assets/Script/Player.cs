@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
     public ParticleSystem[] particles;
 
     public bool isAi = false;
+
+
     private void Awake()
     {
         Instance = this;

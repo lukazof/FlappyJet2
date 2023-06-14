@@ -22,9 +22,12 @@ public class Game : MonoBehaviour
     {
         Instance = this;
     }
+    GameObject playerObj;
     // Start is called before the first frame update
     void Start()
     {
+        playerObj = Player.Instance.gameObject;
+
         coins = PlayerPrefs.GetInt("Coins");
         UpdateHighscore();
         state = GameState.waiting;
@@ -35,7 +38,14 @@ public class Game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(state == GameState.waiting)
+        {
+           // playerObj.SetActive(false);
+        }
+        else
+        {
+            playerObj.SetActive(true);
+        }
     }
 
     float pipeSpawnDelay;

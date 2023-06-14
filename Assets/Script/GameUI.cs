@@ -13,6 +13,8 @@ public class GameUI : MonoBehaviour
 
     public GameObject gameOverPanel;
 
+    public Text devModeText;
+
     // Start is called before the first frame update
     void Awake()
     {
