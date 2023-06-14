@@ -13,3 +13,6 @@ In this new version, you can collect coins to buy new planes in the shop, and th
 you can play against.
 
 **Please note that the game is not finished yet, and I will rewrite every line of code that isn't appropriate.**
+
+
+You can play the game on your browser here: <a href="https://lucasof.site/games/flappyjet/play" target="_blank">lucasof.site/games/flappyjet/play</a>
